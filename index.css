@@ -73,3 +73,7 @@ button:focus{
     border: none;
     border-radius: 5px;
 }
+.completed-todo{
+    text-decoration-line: line-through;
+    opacity: 0.2; 
+}
