@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style-type:circle;
+    text-decoration: underline;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.component--container{
+    align-self: center;
+    margin-bottom: 25px;
+}
+.component--container input {
+    padding: 15px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}
+.component--container input:focus{
+    outline: none;
+    box-shadow: 2px 2px 2px 2px lightgray;
+}
+.component--container input:hover{
+    outline: none;
+    box-shadow: 2px 2px 2px 2px lightgray;
+}
+.component--container button{
+    padding: 15px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+.component--container button:focus{
+    outline: none;
+}
+.component--container button:hover{
+    box-shadow: 2px 2px 2px 2px lightgray;
+}
+.lists--container{
+    background-color: black;
+    align-self: center;
+    width: 300px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+.todo-items{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+button:focus{
+    outline: none;
+}
+.completed{
+    background-color: lime;
+    color: #ffffff;
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+}
+.delete{
+    background-color: maroon;
+    color: #ffffff;
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+}
